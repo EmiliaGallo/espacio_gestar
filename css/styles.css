@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Quicksand:wght@300;400;600&display=swap");
+/* imports otros estilos*/
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  word-spacing: 1.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #FDEEEF;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #FDEEEF;
+}
+
+.imgredonda {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+
+h1 {
+  padding: 0;
+  margin: 0%;
+  color: #C12959;
+  font-size: 10rem;
+  text-align: center;
+  font-family: 'Allura', cursive;
+  background-color: #FDEEEF;
+}
+
+h1 h1 span {
+  color: #D83A56;
+  font-size: 50%;
+  font-weight: lighter;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  color: #D83A56;
+  text-align: right;
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 150%;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #FDEEEF;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav a {
+  color: #DB98AB;
+  text-transform: uppercase;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #FDEEEF;
+}
+
+section {
+  color: #FFF5EB;
+  font-size: 150%;
+}
+
+.cajaCostado {
+  background-color: #D83A56;
+}
+
+.latabla {
+  background-color: dimgray;
+  font-size: 150%;
+}
+
+ol {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-color: white;
+}
+
+/*seccion lactancia*/
+.lactancia {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  justify-items: right;
+}
+
+.lactancia::before {
+  content: "";
+  background-image: url("../images/Newborn-Breastfeeding.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.lactancia h2 {
+  position: relative;
+  top: 100px;
+  left: 1000px;
+  color: #C12959;
+  font-size: 5rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 0.9;
+  text-align: right;
+}
+
+.lactancia h3 {
+  position: relative;
+  color: #C12959;
+  top: 300px;
+  right: 90px;
+  text-transform: uppercase;
+}
+
+/*seccion doula*/
+.doula {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  justify-items: right;
+}
+
+.doula::before {
+  content: "";
+  background-image: url("../images/doulayacomp.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+.doula h2 {
+  position: relative;
+  color: #C12959;
+  font-size: 5rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 0.9;
+  text-align: right;
+  top: 100px;
+  left: 25px;
+}
+
+.doula h3 {
+  position: relative;
+  top: 250px;
+  right: 400px;
+  color: #C12959;
+}
+
+/*SECCION ACT FIS*/
+.actFisica {
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+      -ms-flex-align: right;
+          align-items: right;
+  justify-items: right;
+}
+
+.actFisica::before {
+  content: "";
+  background-image: url("../images/actfisemb.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.actFisica h2 {
+  position: relative;
+  color: #C12959;
+  font-size: 5rem;
+  top: 100px;
+  left: 900px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 0.9;
+  text-align: right;
+}
+
+.actFisica h3 {
+  position: relative;
+  color: #C12959;
+  top: 300px;
+  right: 90px;
+  text-transform: uppercase;
+}
+
+.imground {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+footer {
+  background-color: #FDEEEF;
+  color: #D83A56;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+}
+
+footer .marca {
+  color: grey;
+}
+
+footer .marca p.datos {
+  color: #f54b72;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+footer .marca p.datos ul.redes_contacto {
+  color: #f54b72;
+  margin: auto;
+  font-weight: bold;
+}
+
+footer .marca p.datos ul.redes_contacto li {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5px 0;
+  padding: 1rem;
+}
+
+/*Flexbox*/
+header {
+  height: 200%;
+  padding: 1 rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.paginaprincipal {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contenidoServicios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*Widget instagram prov*/
+.snapwidget-widget {
+  margin: 100px;
+}
+
+/*GRIDS GALERIA DE TALLERES*/
+main {
+  max-width: 800px;
+  padding: 1rem;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 200px 200px 200px;
+      grid-template-columns: 200px 200px 200px 200px;
+  -ms-grid-rows: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
+  grid-gap: 1rem;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.item-a {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1 / 3;
+}
+
+.item-b {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / 5;
+}
+
+.item-c {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / 4;
+}
+
+.item-d {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3 / 5;
+}
+
+/*responsive*/
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
+form {
+  background-image: url("../images/Piggy Pink.jpg");
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  color: white;
+  -webkit-box-shadow: 7px 13px 37px #D83A56;
+          box-shadow: 7px 13px 37px #D83A56;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.boton {
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  border-radius: 4px;
+  color: #D83A56;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=styles.css.map */

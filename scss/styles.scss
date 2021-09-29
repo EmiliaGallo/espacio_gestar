@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Quicksand:wght@300;400;600&display=swap');
+$color-oscuro: #C12959;
+$color-claro: #FDEEEF;
+$color-magenta: #DB98AB;
+$color-negro: #4C4847;
+
+
+/* imports otros estilos*/ 
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    word-spacing: 1.5;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Quicksand', sans-serif;
+    background-color: $color-claro;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background-color:$color-claro;
+}
+
+.imgredonda{
+    width:150px;
+    height:150px;
+    border-radius:75px;
+}
+
+h1{
+    padding: 0;
+    margin: 0%;
+    color:$color-oscuro;
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'Allura', cursive;
+    background-color: $color-claro;
+     h1 span{
+        color: #D83A56;
+        font-size: 50%;
+        font-weight:lighter;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Quicksand', sans-serif;;
+    
+    
+     }
+
+}
+
+
+nav{
+    color: #D83A56;
+    text-align:right;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 150%;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: $color-claro;    
+         ul {
+            display: flex;
+        }
+        a{
+             color:$color-magenta;
+             text-transform: uppercase;
+             justify-content: space-evenly;
+             background-color:$color-claro;
+    
+         }
+
+}
+
+
+section{
+    color: #FFF5EB ;
+    font-size: 150%;
+    
+}
+.cajaCostado{ 
+    background-color: #D83A56  ;
+
+}
+.latabla{
+    background-color: dimgray;
+    font-size: 150%
+}
+ol{
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+}
+
+body{
+    background-color: white;
+}
+
+/*seccion lactancia*/
+
+.lactancia{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-items: right;
+}
+.lactancia::before{
+    content: "";
+    background-image:url("../images/Newborn-Breastfeeding.jpg") ;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+.lactancia h2 {
+    position:relative;
+    top: 100px;
+    left: 1000px;
+    color: $color-oscuro;
+    font-size: 5rem;
+    font-weight:lighter;
+    text-transform: uppercase;
+    line-height: 0.9;
+    text-align: right;
+}
+
+.lactancia h3{
+    position: relative;
+    color: $color-oscuro;
+    top:300px;
+    right: 90px;
+    text-transform: uppercase;
+    
+}
+
+
+/*seccion doula*/
+
+.doula{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-items: right;
+}
+.doula::before{
+    content: "";
+    background-image: url("../images/doulayacomp.jpg"); ;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.doula h2 {
+    position:relative;
+    color: $color-oscuro;
+    font-size: 5rem;
+    font-weight:lighter;
+    text-transform: uppercase;
+    line-height: 0.9;
+    text-align:right;
+    top: 100px;
+    left: 25px;
+
+}
+
+.doula h3{
+    position: relative;
+    top: 250px;
+    right: 400px;
+    color:$color-oscuro
+}
+
+/*SECCION ACT FIS*/
+.actFisica{
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-items: right;
+}
+.actFisica::before{
+    content: "";
+    background-image: url("../images/actfisemb.jpg"); ;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+.actFisica h2 {
+    position:relative;
+    color: $color-oscuro;
+    font-size: 5rem;
+    top: 100px;
+    left: 900px;
+    font-weight:lighter;
+    text-transform: uppercase;
+    line-height: 0.9;
+    text-align:right;
+}
+
+.actFisica h3{
+    position: relative;
+    color: $color-oscuro;
+    top:300px;
+    right: 90px;
+    text-transform: uppercase;
+}
+
+.imground{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+footer{
+    background-color: $color-claro ;
+    color: #D83A56 ;
+    display: flex;  
+    justify-content: center;
+    font-size: 1.5rem;
+        .marca{
+            color: grey;
+
+        p.datos{
+            color: rgb(245, 75, 114);
+            margin: 5px 0;
+            font-weight: bold;
+        ul.redes_contacto{
+            color: rgb(245, 75, 114);
+            margin:auto;
+            font-weight: bold;
+            li{
+                justify-content: space-around;
+                margin: 5px 0;
+                padding: 1rem;
+            }
+            
+        }
+    }
+}
+}
+
+/*Flexbox*/
+
+header{
+    height: 200%;
+    padding: 1 rem 0;       
+    display: flex;  
+    justify-content: space-evenly;      
+    align-items: center;
+}
+section{
+    display: flex;
+}
+
+.paginaprincipal{
+    flex-direction: column;
+}
+
+.contenidoServicios{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Widget instagram prov*/
+.snapwidget-widget{
+    margin: 100px;
+}
+/*GRIDS GALERIA DE TALLERES*/
+
+main {
+    max-width: 800px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 1rem;
+  }
+  
+  img {
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .item-a {
+    grid-row: 1 / 3;
+  }
+  
+  .item-b {
+    grid-column: 3 / 5;
+  }
+  
+  .item-c {
+    grid-row: 2 / 4;
+  }
+  
+  .item-d {
+    grid-column: 3 / 5;
+  }
+
+  /*responsive*/
+  @media (max-width: 600px) {
+    .facet_sidebar {
+      display: none;
+    }
+  }
+  
+form{
+    background-image : url("../images/Piggy\ Pink.jpg");
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #D83A56;
+    font-size: 24px;    
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.boton{
+    width:100% ;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 4px;
+    color: #D83A56;
+    text-transform: uppercase;
+
+}
